@@ -1,0 +1,8 @@
+{
+    "name": "Template with Sass processing",
+    "url": "",
+    "authorName": "Michel Maillard",
+    "authorUrl": "https://michelmaillard.ch/",
+    "description": "Template with Eleventy, Liquid & UIkit with Sass processing",
+    "favicon": "https://11ty.recipes/images/meta/favicon.svg"
+   }
