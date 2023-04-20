@@ -1,42 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-gb" dir="ltr">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Filter - UIkit tests</title>
-        <script src="js/test.js"></script>
-        <style>
-
-            [color='red'] > * { background: #f0506e; }
-            [color='green'] > * { background: #32d296; }
-            [color='blue'] > * { background: #1e87f0; }
-
-            [size='small'] > * { height: 140px; }
-            [size='medium'] > * { height: 170px; }
-            [size='large'] > * { height: 190px; }
-
-        </style>
-
-        <script>
-
-            const {$$, attr, on, ready} = UIkit.util;
-
-            ready(() => {
-                on(document.body, 'beforeFilter afterFilter', (e, filter, state) =>
-                    console.log(e.type, filter, state)
-                );
-                on('#js-animation-switcher', 'change', (e) =>
-                    attr($$('.js-filter-animation'), 'animation', e.target.value)
-                );
-            });
-
-        </script>
-
-    </head>
-
-    <body>
-
+---
+title: Filter (not complete)
+---
         <div class="uk-container">
 
             <h1>Filter</h1>

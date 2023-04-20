@@ -5,12 +5,6 @@
 
         <ul class="uk-nav uk-nav-default">
             <li class="uk-nav-header">Examples</li>
-            <li><a href="accordion"><span class="uk-margin-small-right" uk-icon="icon: table"></span>accordion</a></li>
-            <li><a href="alert"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>alert</a></li>
-            <li><a href="align"><span class="uk-margin-small-right" uk-icon="icon: trash"></span>align</a></li>
-        </ul>
-
-        <ul id="menu" class="menu">
             {% for nav in collections.examples %}
             <li{% if page.url == nav.url %} aria-current="page"{% endif %}><a href="{{ nav.url }}">{{ nav.data.title }}</a></li>
             {% endfor %}

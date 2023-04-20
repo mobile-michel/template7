@@ -1,6 +1,7 @@
 // 1. Your custom variables and variable overwrites.
 $global-primary-background: #00c552;
 $global-secondary-background: #9375fd;
+@import "special.scss";
 // 2. Import default variables and available mixins.
 @import "../../node_modules/uikit/src/scss/variables-theme.scss";
 @import "../../node_modules/uikit/src/scss/mixins-theme.scss";
