@@ -1,0 +1,5 @@
+@supports not selector(::marker) {
+    .uk-list > li[value]::before {
+        content: attr(value) "\200A.\00A0";
+    }
+}

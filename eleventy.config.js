@@ -3,6 +3,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPlugin(eleventySass);
   eleventyConfig.addPassthroughCopy("src/images");
   eleventyConfig.addPassthroughCopy("src/js");
+  eleventyConfig.addPassthroughCopy("src/css/special");
   return {
     dir: {
       input: "src",
