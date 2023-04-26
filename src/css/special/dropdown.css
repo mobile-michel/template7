@@ -1,0 +1,11 @@
+.test {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.scroll-container {
+    padding: 15px;
+    border: 1px dashed rgba(0,0,0,0.2);
+    overflow: auto;
+}

@@ -1,0 +1,7 @@
+[color='red'] > * { background: #f0506e; }
+[color='green'] > * { background: #32d296; }
+[color='blue'] > * { background: #1e87f0; }
+
+[size='small'] > * { height: 140px; }
+[size='medium'] > * { height: 170px; }
+[size='large'] > * { height: 190px; }

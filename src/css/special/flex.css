@@ -1,0 +1,18 @@
+.uk-flex > * {
+    padding: 10px;
+    text-align: center;
+}
+
+.uk-flex > :nth-child(8n-7) { background: rgba(0,0,0,0.1); }
+.uk-flex > :nth-child(8n-6) { background: rgba(0,0,0,0.15); }
+.uk-flex > :nth-child(8n-5) { background: rgba(0,0,0,0.2); }
+.uk-flex > :nth-child(8n-4) { background: rgba(0,0,0,0.25); }
+.uk-flex > :nth-child(8n-3) { background: rgba(0,0,0,0.3); }
+.uk-flex > :nth-child(8n-2) { background: rgba(0,0,0,0.35); }
+.uk-flex > :nth-child(8n-1) { background: rgba(0,0,0,0.40); }
+.uk-flex > :nth-child(8n) { background: rgba(0,0,0,0.45); }
+
+.test {
+    height: 300px;
+    background: #f0f0f0;
+}

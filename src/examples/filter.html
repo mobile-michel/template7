@@ -1,5 +1,6 @@
 ---
-title: Filter (not complete)
+title: Filter
+style: filter
 ---
         <div class="uk-container">
 
@@ -246,6 +247,18 @@ title: Filter (not complete)
             </div>
 
         </div>
+        <script>
 
-    </body>
-</html>
+            const {$$, attr, on, ready} = UIkit.util;
+
+            ready(() => {
+                on(document.body, 'beforeFilter afterFilter', (e, filter, state) =>
+                    console.log(e.type, filter, state)
+                );
+                on('#js-animation-switcher', 'change', (e) =>
+                    attr($$('.js-filter-animation'), 'animation', e.target.value)
+                );
+            });
+
+        </script>
+        

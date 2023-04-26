@@ -1,0 +1,8 @@
+.test-boundary {
+    padding: 15px;
+    border: 1px dashed rgba(0,0,0,0.2);
+}
+
+.test-boundary-overflow { width: 250%; }
+
+.gap { gap: 10px; }
