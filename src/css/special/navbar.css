@@ -1,0 +1,12 @@
+.test {
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    margin-left: 0;
+}
+
+.scroll-container {
+    border: 1px dashed rgba(0,0,0,0.2);
+    overflow: auto;
+}

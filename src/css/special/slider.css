@@ -1,0 +1,10 @@
+.test > :nth-child(10n-9) > canvas { background: rgba(0,0,0,0.1); }
+.test > :nth-child(10n-8) > canvas { background: rgba(0,0,0,0.15); }
+.test > :nth-child(10n-7) > canvas { background: rgba(0,0,0,0.2); }
+.test > :nth-child(10n-6) > canvas { background: rgba(0,0,0,0.25); }
+.test > :nth-child(10n-5) > canvas { background: rgba(0,0,0,0.3); }
+.test > :nth-child(10n-4) > canvas { background: rgba(0,0,0,0.35); }
+.test > :nth-child(10n-3) > canvas { background: rgba(0,0,0,0.40); }
+.test > :nth-child(10n-2) > canvas { background: rgba(0,0,0,0.45); }
+.test > :nth-child(10n-1) > canvas { background: rgba(0,0,0,0.50); }
+.test > :nth-child(10n) > canvas { background: rgba(0,0,0,0.55); }

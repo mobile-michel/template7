@@ -1,34 +1,7 @@
-<!DOCTYPE html>
-<html lang="en-gb" dir="ltr">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Sortable - UIkit tests</title>
-        <script src="js/test.js"></script>
-
-        <style>
-
-            .test-item {
-                font-size: 0.875rem;
-            }
-
-        </style>
-        <script>
-
-            const {on, ready} = UIkit.util;
-
-            ready(() =>
-                on(document.body, 'start moved added removed stop', (e, sortable, el) =>
-                    console.log(e.type, sortable, el)
-                )
-            );
-
-        </script>
-    </head>
-
-    <body>
-
+---
+title: Sortable
+special: sortable
+---
         <div class="uk-container">
 
             <h1>Sortable</h1>
@@ -39,7 +12,7 @@
                 <li>
                     <div class="uk-card uk-card-default uk-card-body">
                         <a href="https://getuikit.com">Link</a>
-                        <img src="images/avatar.jpg" width="40" height="40" alt="">
+                        <img src="../images/avatar.jpg" width="40" height="40" alt="">
                     </div>
                 </li>
                 <li><a class="uk-card uk-card-default uk-card-body uk-display-block" href="https://getuikit.com">Link Handle</a></li>
@@ -295,6 +268,17 @@
             </div>
 
         </div>
+        <script>
+
+            const {on, ready} = UIkit.util;
+
+            ready(() =>
+                on(document.body, 'start moved added removed stop', (e, sortable, el) =>
+                    console.log(e.type, sortable, el)
+                )
+            );
+
+        </script>
 
     </body>
 </html>

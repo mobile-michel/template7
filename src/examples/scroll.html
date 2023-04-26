@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-gb" dir="ltr">
-
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Scroll - UIkit tests</title>
-        <script src="js/test.js"></script>
-        <script>
-            const {$$, attr, on} = UIkit.util;
-            on(document, 'change', '#offset', e =>
-                attr($$('[uk-scroll]'), 'data-offset', e.target.value)
-            )
-        </script>
-    </head>
-
-    <body>
-
+---
+title: Scroll
+---
         <div class="uk-container">
 
             <h1>Scroll</h1>
@@ -113,6 +98,13 @@
             </div>
 
         </div>
+
+        <script>
+            const {$$, attr, on} = UIkit.util;
+            on(document, 'change', '#offset', e =>
+                attr($$('[uk-scroll]'), 'data-offset', e.target.value)
+            )
+        </script>
 
     </body>
 </html>
